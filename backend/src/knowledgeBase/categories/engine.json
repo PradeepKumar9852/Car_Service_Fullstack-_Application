@@ -1,0 +1,45 @@
+{
+  "category": "engine",
+  "name": "Engine Issues & Diagnostics",
+  "safetyLevel": "HIGH",
+  "disclaimer": "Automotive engines are complex systems. AI triage provides advisory context only and does not replace hands-on certified mechanical inspection.",
+  "subtopics": [
+    {
+      "id": "check_engine_light",
+      "symptoms": ["Check Engine Light (CEL) steady", "Check Engine Light flashing", "MIL illuminated"],
+      "potentialCauses": ["Faulty O2 sensor", "Loose gas cap", "Catalytic converter degradation", "Mass Airflow (MAF) sensor fault", "Ignition coil / spark plug failure"],
+      "criticalWarning": "A FLASHING Check Engine Light indicates an active severe misfire that can destroy the catalytic converter or cause catastrophic engine failure. Stop driving as soon as safely possible.",
+      "triageQuestions": [
+        "Is the Check Engine light steady or flashing?",
+        "Do you notice any rough idling, shuddering, or loss of power?"
+      ],
+      "recommendedAction": "Perform full OBD-II computer diagnostic scan at service center."
+    },
+    {
+      "id": "engine_misfire_rough_idle",
+      "symptoms": ["Engine shakes at idle", "Hesitation during acceleration", "Jerking or sputtering"],
+      "potentialCauses": ["Worn spark plugs", "Failing ignition coils", "Clogged fuel injectors", "Vacuum leak"],
+      "criticalWarning": "Continuing to drive under heavy misfire can cause fuel unburnt ignition in exhaust and overheat catalytic converter.",
+      "triageQuestions": [
+        "Does the shaking happen only at idle or while driving at speed?",
+        "When were spark plugs or fuel filters last replaced?"
+      ],
+      "recommendedAction": "Book a comprehensive ignition and fuel system diagnostic."
+    },
+    {
+      "id": "engine_stalling_loss_of_power",
+      "symptoms": ["Engine cuts off at stoplights", "Limp mode activated", "Sluggish acceleration"],
+      "potentialCauses": ["Faulty alternator/battery", "Throttle body carbon buildup", "Camshaft/Crankshaft position sensor fault", "Fuel pump failure"],
+      "criticalWarning": "Engine stalling while driving cuts power steering and brake booster assist. Extreme road hazard.",
+      "triageQuestions": [
+        "Does it stall when coming to a stop or while cruising?",
+        "Can you immediately restart the vehicle?"
+      ],
+      "recommendedAction": "Recommend towing if vehicle stalls unpredictably on public roads."
+    }
+  ],
+  "triageRules": [
+    "Never guess the exact internal failure without diagnostic trouble codes (DTCs).",
+    "Advise customer whether vehicle is safely drivable or needs towing."
+  ]
+}

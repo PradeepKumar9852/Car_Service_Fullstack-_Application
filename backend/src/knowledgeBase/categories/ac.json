@@ -1,0 +1,42 @@
+{
+  "category": "ac",
+  "name": "Air Conditioning & Climate Control",
+  "safetyLevel": "LOW_TO_MEDIUM",
+  "disclaimer": "Automotive A/C systems use pressurized refrigerants (R134a, R1234yf) that require EPA-certified recovery and recharge equipment.",
+  "subtopics": [
+    {
+      "id": "ac_blowing_warm_air",
+      "symptoms": ["AC vents blowing ambient or warm air", "AC cools slightly while driving on highway but warms up at idle"],
+      "potentialCauses": ["Low refrigerant level due to micro-leak", "A/C compressor clutch not engaging", "Condenser fan failure", "Blend door actuator stuck"],
+      "triageQuestions": [
+        "Does the air get cool at all or is it blowing completely warm?",
+        "Do you hear the A/C compressor click on under the hood when you turn AC button on/off?"
+      ],
+      "recommendedAction": "A/C performance test, UV dye leak detection scan, and precision electronic vacuum recharge."
+    },
+    {
+      "id": "bad_musty_smell_from_vents",
+      "symptoms": ["Musty, moldy, or vinegar smell when fan is turned on"],
+      "potentialCauses": ["Mold/bacteria buildup on evaporator core", "Clogged cabin air filter", "Blocked A/C condensate drain tube causing stagnant water"],
+      "triageQuestions": [
+        "When was your cabin air filter last changed (recommended every 12 months/15,000 miles)?",
+        "Do you notice wet carpet in the front passenger footwell?"
+      ],
+      "recommendedAction": "Cabin air filter replacement and evaporator antibacterial foam sanitization treatment."
+    },
+    {
+      "id": "ac_noise_squeal_grinding",
+      "symptoms": ["Loud screech/squeal when A/C button is pressed", "Rattling noise from front of engine when A/C is active"],
+      "potentialCauses": ["Worn or loose A/C compressor serpentine belt", "Failing A/C compressor clutch bearing"],
+      "criticalWarning": "A seized A/C compressor can snap the serpentine belt, causing loss of power steering, alternator charging, and water pump cooling.",
+      "triageQuestions": [
+        "Does the noise immediately disappear when you turn the A/C switch off?"
+      ],
+      "recommendedAction": "Compressor clutch bearing test and drive belt inspection."
+    }
+  ],
+  "triageRules": [
+    "Clarify that DIY recharge cans with stop-leak can damage professional A/C recovery machines.",
+    "Recommend professional pressure gauge and manifold diagnostic."
+  ]
+}

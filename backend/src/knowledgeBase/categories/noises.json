@@ -1,0 +1,53 @@
+{
+  "category": "noises",
+  "name": "Unusual Vehicle Noises & Acoustic Diagnostics",
+  "safetyLevel": "MEDIUM_TO_CRITICAL",
+  "disclaimer": "Unusual sounds are the early warning signs of mechanical wear or loose structural components.",
+  "subtopics": [
+    {
+      "id": "engine_ticking_clicking_knocking",
+      "symptoms": ["Fast rhythmic ticking noise in top of engine", "Deep heavy metallic knocking or tapping from bottom of engine under load"],
+      "potentialCauses": ["Low engine oil level / low oil pressure", "Hydraulic lifter tick / valve train wear", "Rod bearing knock (Severe bottom end damage)"],
+      "criticalWarning": "A heavy deep engine knock means imminent catastrophic engine failure. Turn off engine immediately and check oil dipstick.",
+      "triageQuestions": [
+        "Is it a light top-end tick or a heavy low-pitch metallic thud?",
+        "Have you checked your engine oil level on the dipstick?"
+      ],
+      "recommendedAction": "Immediate engine oil level verification, oil pressure check, acoustic stethoscope inspection."
+    },
+    {
+      "id": "whirring_humming_droning_wheel_bearing",
+      "symptoms": ["Loud humming / droning airplane sound at 30-60 mph", "Noise pitch gets louder when turning wheel left or right"],
+      "potentialCauses": ["Worn wheel bearing assembly", "Cupped tyre tread", "Differential bearing wear"],
+      "criticalWarning": "Severely degraded wheel bearings can overheat, seize, or cause the wheel to separate from the vehicle.",
+      "triageQuestions": [
+        "Does the noise change or get louder when you steer left versus steering right?",
+        "Does the humming seem to come from a specific corner of the car?"
+      ],
+      "recommendedAction": "Wheel bearing play and runout inspection on a 2-post lift."
+    },
+    {
+      "id": "clunking_popping_over_bumps_and_turns",
+      "symptoms": ["Clunking / rattling over speed bumps or potholes", "Popping / clicking noise when turning sharp corners while accelerating"],
+      "potentialCauses": ["Worn sway bar end links / bushings", "Blown shock absorber / strut mount", "Worn outer CV (Constant Velocity) axle joint"],
+      "triageQuestions": [
+        "Does the popping sound happen specifically when making a full tight turn (U-turn)?",
+        "Does the clunk occur when going over rough roads or speed bumps?"
+      ],
+      "recommendedAction": "Suspension multi-point inspection, ball joint and CV boot/axle evaluation."
+    },
+    {
+      "id": "high_pitch_squeal_on_startup",
+      "symptoms": ["Loud bird-like squeal when starting engine or turning steering wheel all the way"],
+      "potentialCauses": ["Glazed or loose serpentine accessory belt", "Worn belt tensioner / idler pulley"],
+      "triageQuestions": [
+        "Does the squeal happen when turning on the AC or steering to full lock?"
+      ],
+      "recommendedAction": "Drive belt tension inspection and belt replacement."
+    }
+  ],
+  "triageRules": [
+    "Differentiate light vibrations from deep structural knocks.",
+    "Prioritize bottom-end knocks and loose steering/wheel bearing noises for urgent shop inspection."
+  ]
+}

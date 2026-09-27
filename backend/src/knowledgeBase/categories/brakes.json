@@ -1,0 +1,43 @@
+{
+  "category": "brakes",
+  "name": "Brake System & Hydraulic Safety",
+  "safetyLevel": "CRITICAL",
+  "disclaimer": "Brakes are your primary safety system. Any loss of braking efficiency is an immediate life safety hazard.",
+  "subtopics": [
+    {
+      "id": "brake_pedal_goes_to_floor",
+      "symptoms": ["Brake pedal feels soft, spongy, or sinks all the way to the floorboard", "Loss of stopping power", "Red brake warning light on"],
+      "potentialCauses": ["Brake hydraulic line leak / blown brake hose", "Failing master cylinder seals", "Severely contaminated brake fluid with air bubbles"],
+      "criticalWarning": "SAFETY HAZARD: DO NOT DRIVE THE VEHICLE. If moving, use emergency/parking brake gradually and downshift to lower gears to stop. Arrange immediate flatbed tow.",
+      "triageQuestions": [
+        "Does pumping the brake pedal build pressure or does it keep sinking?",
+        "Do you notice clear or amber oily fluid on inside of tyres or under car?"
+      ],
+      "recommendedAction": "Immediate Towing & Complete hydraulic brake line / master cylinder inspection."
+    },
+    {
+      "id": "squealing_and_grinding_brakes",
+      "symptoms": ["High-pitched squeal when applying brakes", "Metal-on-metal harsh grinding noise when stopping", "Pulsation in pedal"],
+      "potentialCauses": ["Brake pad wear indicator scraping rotor", "Pads completely worn down to backing plate (grinding)", "Warped brake disc rotors"],
+      "criticalWarning": "Metal-on-metal grinding means bare backing plate is chewing into rotor, increasing stopping distance dramatically and causing rotor damage.",
+      "triageQuestions": [
+        "Is it a squeak or a heavy metallic grinding?",
+        "Does the vehicle pull to one side when you brake?"
+      ],
+      "recommendedAction": "Brake pad & rotor replacement and calliper slide lubrication."
+    },
+    {
+      "id": "shaking_steering_under_braking",
+      "symptoms": ["Steering wheel shakes vigorously when slowing down from highway speeds", "Brake pedal pulsates"],
+      "potentialCauses": ["Warped front brake rotors", "Uneven brake pad material deposition", "Worn suspension bushings / tie rods"],
+      "triageQuestions": [
+        "Does the shaking happen only while pressing the brake pedal, or all the time at highway speeds?"
+      ],
+      "recommendedAction": "Rotor runout measurement, rotor resurfacing or replacement, and pad bedding."
+    }
+  ],
+  "triageRules": [
+    "Treat soft/failing pedal as IMMEDIATE ESCALATION / NON-DRIVABLE.",
+    "Advise customer that friction materials have legal minimum thickness limits (usually 3mm)."
+  ]
+}

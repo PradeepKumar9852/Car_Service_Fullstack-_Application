@@ -1,0 +1,35 @@
+{
+  "category": "overheating",
+  "name": "Engine Overheating & Cooling System",
+  "safetyLevel": "CRITICAL",
+  "disclaimer": "Engine overheating can cause warped cylinder heads, blown head gaskets, and permanent engine seizure within minutes.",
+  "subtopics": [
+    {
+      "id": "steam_from_hood_red_gauge",
+      "symptoms": ["Steam or white vapor escaping from hood", "Temperature gauge pinned in the red / 'H' zone", "Engine temperature warning message/light"],
+      "potentialCauses": ["Severe coolant leak (ruptured hose / radiator)", "Failed water pump", "Stuck closed thermostat", "Blown head gasket", "Cooling fan motor failure"],
+      "criticalWarning": "SAFETY CRITICAL: PULL OVER IMMEDIATELY TO A SAFE SPOT AND TURN OFF ENGINE. NEVER OPEN THE RADIATOR CAP ON A HOT ENGINE—pressurized boiling coolant will cause severe third-degree burns!",
+      "triageQuestions": [
+        "Are you currently parked safely, or are you actively driving?",
+        "Do you see steam coming out from under the hood?",
+        "Do you see sweet-smelling green, orange, or pink fluid pooling under the car?"
+      ],
+      "recommendedAction": "Emergency pull-over instructions -> Turn off engine -> Allow to cool 30+ mins -> Arrange towing. Do NOT continue driving."
+    },
+    {
+      "id": "creeping_temperature_in_traffic",
+      "symptoms": ["Temperature gauge rises in stop-and-go traffic but drops when moving at highway speeds", "Heater blowing cold air despite hot engine"],
+      "potentialCauses": ["Failed radiator fan / relay", "Low coolant level / air pocket in cooling system", "Partially blocked radiator fins"],
+      "criticalWarning": "Turning on the cabin heater to maximum heat and high fan can act as a temporary auxiliary radiator to pull heat away in an emergency, but immediate service is required.",
+      "triageQuestions": [
+        "Does the temperature normalize once the car is moving faster?",
+        "Have you had to top up coolant recently?"
+      ],
+      "recommendedAction": "Inspect cooling fans, pressure test cooling circuit, check thermostat function."
+    }
+  ],
+  "triageRules": [
+    "Always instruct immediate engine shutdown when overheating is active.",
+    "Categorize vehicle as NON-DRIVABLE to prevent engine replacement costs."
+  ]
+}

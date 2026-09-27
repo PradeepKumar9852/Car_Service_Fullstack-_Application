@@ -1,0 +1,42 @@
+{
+  "category": "transmission",
+  "name": "Transmission, Gearbox & Drivetrain",
+  "safetyLevel": "HIGH",
+  "disclaimer": "Transmission repairs are highly specialized. Low or burnt transmission fluid can rapidly destroy internal clutch packs and torque converters.",
+  "subtopics": [
+    {
+      "id": "slipping_delayed_shifting",
+      "symptoms": ["Engine revs high before gear engages", "Slipping out of gear while accelerating", "Delayed engagement when shifting from Park to Drive/Reverse"],
+      "potentialCauses": ["Low transmission fluid level", "Burnt/degraded fluid", "Worn clutch packs or valve body solenoids", "Torque converter shudder"],
+      "criticalWarning": "Severe slippage generates intense heat that burns transmission clutches quickly.",
+      "triageQuestions": [
+        "Is the vehicle an automatic, dual-clutch (DCT), CVT, or manual?",
+        "Does the delay happen when cold or after the car warms up?"
+      ],
+      "recommendedAction": "Transmission fluid level/condition check, diagnostic scan for transmission control module (TCM) codes."
+    },
+    {
+      "id": "harsh_shifting_clunking",
+      "symptoms": ["Hard jolt or bang when car changes gears", "Gear shift lever feels stiff"],
+      "potentialCauses": ["Broken engine or transmission mounts", "TCM software calibration need", "Stuck shift solenoid"],
+      "triageQuestions": [
+        "Do you hear a loud thud or clunk when putting it in Reverse or Drive?",
+        "Does it happen in all gears or between specific gears (e.g. 1st to 2nd)?"
+      ],
+      "recommendedAction": "Drivetrain mount inspection and TCM solenoid pressure testing."
+    },
+    {
+      "id": "burnt_smell_transmission_leak",
+      "symptoms": ["Sweet burnt toast smell from under vehicle", "Reddish/brown oily fluid puddles"],
+      "potentialCauses": ["Transmission cooler line leak", "Output shaft seal leak", "Overheated transmission fluid"],
+      "triageQuestions": [
+        "Do you see red or dark brown fluid leaking in the middle-to-front underside?"
+      ],
+      "recommendedAction": "Stop driving immediately if fluid level is depleted; repair leak and perform complete fluid flush."
+    }
+  ],
+  "triageRules": [
+    "Never advise continuing long highway trips when transmission is actively slipping.",
+    "Recommend fluid analysis and TCM diagnostic scan."
+  ]
+}

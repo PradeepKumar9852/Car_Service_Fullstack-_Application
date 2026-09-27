@@ -1,0 +1,43 @@
+{
+  "category": "tyres",
+  "name": "Tyres, Wheels & TPMS",
+  "safetyLevel": "HIGH",
+  "disclaimer": "Tyres are the vehicle's only contact point with the road. Driving on severely damaged or deflated tyres can lead to fatal blowouts.",
+  "subtopics": [
+    {
+      "id": "flat_tyre_puncture",
+      "symptoms": ["Tyre flat or losing PSI rapidly", "Nail/screw visible in tread", "Car pulling hard to one side"],
+      "potentialCauses": ["Puncture from road debris", "Damaged valve stem", "Rim bead corrosion / leak"],
+      "criticalWarning": "Do not drive on a completely flat tyre even for short distances—this destroys the alloy wheel rim and tyre sidewall internally.",
+      "triageQuestions": [
+        "Is the puncture located on the center tread or on the sidewall/shoulder?",
+        "Do you have a spare tyre, jack, or tyre sealant inflator kit?"
+      ],
+      "recommendedAction": "Sidewall punctures cannot be safely plugged and require tyre replacement. Center tread punctures may be repaired with internal patch-plug."
+    },
+    {
+      "id": "tpms_light_pressure_loss",
+      "symptoms": ["TPMS warning light illuminated or blinking", "One or more tyre pressures low"],
+      "potentialCauses": ["Slow puncture", "Seasonal ambient temperature drop", "Defective TPMS sensor battery"],
+      "triageQuestions": [
+        "Is the TPMS light solid (low pressure) or flashing for 60 seconds (sensor error)?",
+        "Have you checked tyre pressures cold with a pressure gauge?"
+      ],
+      "recommendedAction": "Inspect tyre pressure cold according to driver door jamb placard; recalibrate TPMS or replace sensor."
+    },
+    {
+      "id": "tyre_vibration_uneven_wear",
+      "symptoms": ["Steering wheel or seat vibration at 50-70 mph", "Edge or cupped tread wear"],
+      "potentialCauses": ["Wheel unbalance (lost wheel weights)", "Wheel misalignment", "Worn shocks or suspension components"],
+      "triageQuestions": [
+        "Does the vibration start only at higher speeds?",
+        "Do you see smooth wear on the inner or outer tread edge?"
+      ],
+      "recommendedAction": "Wheel balance, 4-wheel laser alignment, and tyre rotation."
+    }
+  ],
+  "triageRules": [
+    "Sidewall damage/bulges are immediate blowout hazards -> DO NOT DRIVE.",
+    "Advise maintaining minimum 2/32 inch (1.6mm) legal tread depth."
+  ]
+}

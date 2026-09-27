@@ -1,0 +1,44 @@
+{
+  "category": "battery",
+  "name": "Battery & Electrical Starting System",
+  "safetyLevel": "MEDIUM",
+  "disclaimer": "Battery acid and jump starting carry short-circuit and chemical risks. Always advise following owner manual safety procedures.",
+  "subtopics": [
+    {
+      "id": "rapid_clicking_no_crank",
+      "symptoms": ["Rapid clicking sound when turning key / pressing start button", "Instrument cluster lights flicker or dim", "Engine does not turn over"],
+      "potentialCauses": ["Discharged or dead 12V battery", "Loose or corroded battery terminal cables", "Faulty starter motor solenoid"],
+      "criticalWarning": "Check for battery swelling, cracking, or strong sulfur/rotten egg odor. If swollen or leaking acid, DO NOT attempt to jump start.",
+      "triageQuestions": [
+        "Do you hear a rapid clicking sound or complete silence when trying to start?",
+        "How old is the current 12V battery (more than 3-4 years)?"
+      ],
+      "recommendedAction": "Battery load test and terminal inspection, jump-start assistance if safe."
+    },
+    {
+      "id": "dead_battery_parasitic_drain",
+      "symptoms": ["Car battery dies overnight or after sitting 1-2 days", "Clock/radio resets"],
+      "potentialCauses": ["Internal battery cell degradation", "Parasitic electrical drain (interior light, dashcam, faulty module)", "Bad alternator not recharging"],
+      "triageQuestions": [
+        "Did any interior light or accessory stay on?",
+        "Was the car driven on regular highway trips recently?"
+      ],
+      "recommendedAction": "Battery charging system health test & parasitic draw analysis."
+    },
+    {
+      "id": "battery_warning_light_alternator",
+      "symptoms": ["Red battery light illuminates on dashboard while driving", "Headlights dimming while driving", "Electrical systems shutting down one by one"],
+      "potentialCauses": ["Failed alternator / voltage regulator", "Broken or loose serpentine belt", "Corroded ground wire"],
+      "criticalWarning": "If the battery light is on while the engine is running, the alternator is NOT charging. The car will die completely once the battery drains in 10-30 minutes.",
+      "triageQuestions": [
+        "Is the battery icon on while the engine is running?",
+        "Do you smell burning rubber under the hood (possible broken accessory belt)?"
+      ],
+      "recommendedAction": "Drive directly to service center immediately or pull over before vehicle loses all electrical and engine power."
+    }
+  ],
+  "triageRules": [
+    "Instruct customer never to touch leaking battery acid with bare skin.",
+    "Offer mobile jump-start service or shop battery replacement."
+  ]
+}
