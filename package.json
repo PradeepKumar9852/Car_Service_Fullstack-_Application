@@ -1,0 +1,29 @@
+{
+  "name": "car-service-voice-agent-monorepo",
+  "version": "1.0.0",
+  "description": "Full-stack Monorepo for Car Service Voice & Chat Agent with Node.js/Express Backend and React/Tailwind Frontend",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev:backend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:backend": "npm test --prefix backend",
+    "install:backend": "npm install --prefix backend",
+    "install:frontend": "npm install --prefix frontend",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "db:init": "npm run db:init --prefix backend"
+  },
+  "keywords": [
+    "car-service",
+    "voice-agent",
+    "chat-agent",
+    "monorepo",
+    "express",
+    "react",
+    "tailwind"
+  ],
+  "author": "Precision AutoCare Systems",
+  "license": "MIT"
+}
